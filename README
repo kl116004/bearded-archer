@@ -3,4 +3,6 @@ Program:  solitaire
 
 This is a solitaire cipher I am writing in Ruby.  It will take a command line arg, message or already encrypted code and encrypt or decrypt as necessary, printing output to terminal
 
-
+test messages
+	CLEPK HHNIY CFPWH FDFEH = YOURCIPHERISWORKINGX
+	ABVAW LWZSY OORYK DUPVH = WELCOMETORUBYQUIZXXX
