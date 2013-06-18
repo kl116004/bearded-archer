@@ -5,6 +5,30 @@ require 'pry'
 input = String.new
 input = ARGV[0].dup
 
+class Deck < Array
+	def move(card, offset)
+		index = self.index(card)
+		new_index = index + offset
+		self.delete(card)
+		self.insert(new_index, card)		
+	end
+	
+	def triple_cut_around(card1, card2)
+	
+	end
+	
+	def count_cut_last
+	
+	end
+	
+	def get_output_letter
+	
+	end
+	
+	def self.value_from_card(card)
+	
+	end	
+end
 
 def solitaire(input)
 
